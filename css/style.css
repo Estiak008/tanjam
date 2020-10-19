@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Playfair+Display:wght@400;900&family=Roboto:wght@300;900&display=swap');
+.container{
+	width:1600px;
+}
+header{
+	height:670px;
+	background-image:url(../img/overlay.png);
+}
+.logo{
+	padding-top:20px;
+	text-align:center;
+}
+.navbar{
+	
+	z-index: 100;
+	
+}
+
+.navbar ul li{
+	display:inline-block;
+	font-size:13px;
+	margin-top:36px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar ul li a{
+	margin-top:36px;
+	padding:0px 5px;
+	text-decoration:none;
+	color:#ffffff;
+	
+}
+
+.navbar ul li:hover a{
+	color:#00e0d0;
+}
+
+.heading{
+	color:#fff;
+	top:120px;
+	text-align:center;
+}
+.heading h2{
+	font-family: 'Playfair Display', serif;
+	font-weight:900;
+}
+.headingp{
+	margin: 0 auto;
+	width:780px;
+	height:80px;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+}
+
+.buttonh{
+	top:52px;
+	position:relative;
+	color:#00e0d0;
+	padding:15px;
+	border:2px solid #00e0d0;
+	font-family: 'Hammersmith One', sans-serif;
+}
+.buttonh:hover{
+	color:#fff;
+}
+
+.headingimg{
+	position:relative;
+	top:150px;
+}
+.medium{
+	background-color:#fff;
+	height:404px;
+}
+.mediumlogo{
+	text-align:right;
+	padding-right:33px;
+	padding-top:70px;
+}
+
+.mediumcontent{
+	position:relative;
+	top:70px;
+	padding-left:67px;
+}
+
+.mediumcontent h2{
+	font-family: 'Playfair Display', serif;
+	font-size:22px;
+}
+
+.mediumcp{
+	width:540px;
+	height:150px;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	padding-top:15px;
+}
+.buttonm{
+	top:32px;
+	position:relative;
+	color:#00e0d0;
+	padding:15px;
+	border:2px solid #00e0d0;
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+.buttonm:hover{
+	color:#000;
+}
+.vidsection{
+	height:550px;
+	background-image:url(../img/mediumback.png);
+	text-align:center;
+	
+}
+.vidsection img{
+	position:relative;
+	top:200px;
+}
+.vidsection p{
+	position:relative;
+	top:250px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:900;
+	font-size:16px;
+	color:#fff;
+}
+
+.bbmedium{
+	background-image:url(../img/whitebg.png);
+	height:755px;
+}
+
+.bbmedium h2{
+	text-align:center;
+}
